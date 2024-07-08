@@ -37,7 +37,7 @@ validation = "0.0.1"
 # feature=json
 serde_json = { version = "1.0.116", optional = true }
 # feature=charabia
-charabia = { version = "0.8.10", optional = true }
+charabia = { git = "https://github.com/meilisearch/charabia.git", rev = "ae07a589ab5fa825e7fb68777b76f81e155be1b9", optional = true }
 # feature=search
 tantivy = { version = "0.22.0", optional = true }
 # feature=config
